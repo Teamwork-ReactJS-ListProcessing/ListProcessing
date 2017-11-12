@@ -1,12 +1,8 @@
 function processCommands(commands) {
 
-    //This is main function which get list of string , get result from CommandExecutor class and print result
-
-
     if(commands.length === 0){
         throw new Error('Error: invalid command parameters')
     }
-
 
     let initialText = commands.shift();
     print(initialText);
@@ -25,6 +21,6 @@ function processCommands(commands) {
     }
 }
 
-    processCommands(['alpha beta gamma', 'append delta', 'append another delta'])
+processCommands(['alpha beta gamma', 'append delta', 'append another delta'])
 
 
