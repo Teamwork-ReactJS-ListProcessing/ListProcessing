@@ -7,10 +7,11 @@ class CommandExecutor {
     }
  
     executeCommand(){
-       let pharams = this.command.split(' ');
-       let cmd = pharams.shift();
+       let params = this.command.split(' ');
+       let cmd = params.shift();
        try {
-           let actionResult =  require(`./${cmd}`)[cmd](this.text,pharams)
+            if(cmd === 'delete') { cmd = 'deleteIndex'}
+           let actionResult =  require(`./${cmd}`)[cmd](this.text,params)
            return actionResult;
        }
      catch (Error){

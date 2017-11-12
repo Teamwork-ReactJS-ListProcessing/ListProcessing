@@ -21,6 +21,6 @@ function processCommands(commands) {
     }
 }
 
-processCommands(['alpha beta gamma', 'append delta', 'append another delta'])
+processCommands(['alpha', 'append beta', 'append testDeleteCommand', 'prepend 00', 'delete 3'])
 
 
