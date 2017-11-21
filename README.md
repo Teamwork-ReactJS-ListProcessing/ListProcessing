@@ -11,6 +11,11 @@ Vasil Panovski tasks:
 - Implement prepend commant functionality
 - Implement delete command functionality
 
+Veselin Georgiev tasks:
+
+- Implement insert command functionality
+- Implement reverse command functionality
+- Implement end command functionality
 
 
 ## Link to Trello project manager - https://trello.com/b/sVQl5abY/list-processing-team-work-react-js
