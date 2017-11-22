@@ -21,7 +21,6 @@ Veselin Georgiev tasks:
 Dimo Ivanov tasks:
 ---------------------
 
-- Create CommandExecutor class and CommandParser function
 - Implement roll left command functionality
 - Implement roll right commant functionality
 - Implement sort command functionality
