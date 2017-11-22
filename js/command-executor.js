@@ -11,6 +11,7 @@ class CommandExecutor {
        let cmd = params.shift();
        try {
             if(cmd === 'delete') { cmd = 'deleteIndex'}
+            if(cmd === 'roll') { cmd = cmd + params.shift()}
            let actionResult =  require(`./${cmd}`)[cmd](this.text,params)
            return actionResult;
        }
